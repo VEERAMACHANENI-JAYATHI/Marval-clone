@@ -1,0 +1,16 @@
+{
+	"folders": [
+		{
+			"path": "."
+		},
+		{
+			"path": "../.vscode"
+		},
+		{
+			"path": "../VS"
+		}
+	],
+	"settings": {
+		"liveServer.settings.multiRootWorkspaceName": "Marval"
+	}
+}
