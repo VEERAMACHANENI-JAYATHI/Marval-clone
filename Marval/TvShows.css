@@ -1,19 +1,20 @@
-.{
+*{
+
     padding: 0;
     margin: 0;
     box-sizing: border-box;
 }
-.body{
+body{
 height:100%;
-
 }
 .One{
 font-size: xx-large;
 font-style: oblique;
 background-color: black;
-height: 10vh;
+height: 8vh;
 width: auto;
 border-bottom: 1px solid rgb(54, 50, 50);
+
 }
 .one_in{
 height:5vh;
@@ -22,15 +23,15 @@ font-size:small;
 display: flex;
 flex-direction: row;
 align-items:center;
+gap: 20px;
 justify-content:center;
 border-bottom:1px solid rgb(54, 50, 50);
-padding-left: 10%;
 margin-bottom: 0%;
 }
-a{
+.one_in a{
     color:white;
-    text-decoration: none;
-    font-weight: bold ;
+    text-decoration:wavy;
+    font-weight: bolder ;
    
 }
 .one_two{
@@ -45,25 +46,258 @@ color: white;
 font-size: small;
 font-style: initial;
 }
+a:hover {
+    border-bottom: 2px solid red;
+}
 
 .two_one{
     height:20%;
   font-size: xx-large;
 
 }
+
 .two_two{
     position: absolute;
     top: 50%;
    left: 30%;
-   transform: translate(-30%, -30%);
- color: rgb(240, 241, 241);
+ color: rgb(0, 0, 0);
  font-size: 24px;
     text-align: center;
     font-size: xx-large;
      font-weight: bolder;
      font-style: italic;
+    align-items: center;
+    justify-content: center;
+}
+.two_two p{
+    font-size: medium;
+    color: black;
 }
 a{
    font-size: medium; 
    font-weight: lighter;
+}
+p{ 
+font-size:small;
+color: black;
+font-family: fantesy;
+}
+.two_three{
+
+    padding-left: 15px;
+}
+h5{
+color:rgb(95, 94, 94);
+font-family: fantasy;
+}
+
+.two_three img{
+    padding-left: 5px;
+    padding-right: 5px;
+    flex-direction: row;
+    border-radius: 25px;
+
+}
+.two_three img:hover{
+    filter: brightness(1.2);
+box-shadow:rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
+}
+.two_five{
+    display: flex;
+    flex-direction: row;
+}
+.two_four{
+   padding-top: 30px;
+}
+.two_six{
+    color:black;
+    text-align:justify;
+
+}
+.two_six p{
+    padding-left:15px ; 
+font-size: xx-large;
+    font-family:  fantasy;
+    padding-top: 10px;
+     
+    padding-bottom: 10px;
+    text-decoration: underline red;
+   
+
+  }
+.twoone_six{
+    padding-left: 15px;
+    text-align:justify;
+ justify-content: center;
+ 
+
+}
+.twoone_six img:hover{
+border-radius: 25px;
+filter: brightness(1.2);
+box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px inset, rgba(0, 0, 0, 0.3) 0px 18px 36px -18px inset;
+}
+.twoone_six p{
+color: grey;
+font-family:fantasy;
+
+}
+.twoone_six h2{
+    font-size: medium;
+}
+.twoone_six h4{
+    padding-left:5px;
+    font-weight: 200;
+    font-family: fantasy;
+}
+.two_six h2{
+    color: rgb(65, 63, 63);
+}
+.twotwo_six {
+    display: flex;
+    flex-direction: row;
+    padding-left: 5px;
+    padding-right: 5px;
+}
+.two_seven p{
+    font-size: xx-large;
+    font-family:fantasy;
+padding-left: 15px;
+padding-top: 10px;
+text-decoration: underline solid 3px red;
+}
+.two_eight{
+    display: flex;
+    flex-direction: row;
+}
+.two_nine p{
+    color: black;
+    font-size: medium;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS';
+    padding-left: 13px;
+
+}
+.two_nine h5{
+color: grey;
+font-size: small;
+font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+padding-left: 15px;
+}
+.two_nine{
+    padding-left: 15px;
+    border-radius: 25px;
+    padding-top: 10px;
+}
+.two_nine img{
+    border-radius: 25px;
+}
+.two_nine img:hover{ 
+    filter: brightness(1.2);
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px inset, rgba(0, 0, 0, 0.3) 0px 18px 36px -18px inset;
+
+}
+.two_ten p{
+font-size: xx-large;
+ font-family:fantasy;
+padding-left: 15px;
+padding-top: 10px;
+text-decoration: underline solid 3px red;
+}
+.two_ele{
+    display: flex;
+    flex-direction: row;
+}
+.two_twe p{
+    color: black;
+    font-size: medium;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS';
+    padding-left: 13px;
+
+}
+.two_twe h5{
+color: grey;
+font-size: small;
+font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+padding-left: 15px;
+}
+.two_twe{
+    padding-top: 10px;
+    padding-left: 15px;
+    border-radius: 25px;
+}
+.two_twe img{
+    border-radius: 25px;
+}
+.two_twe img:hover{ 
+    filter: brightness(1.2);
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px inset, rgba(0, 0, 0, 0.3) 0px 18px 36px -18px inset;
+
+}
+.two_thi p{
+    font-size: xx-large;
+     font-family:fantasy;
+    padding-left: 15px;
+    padding-top: 10px;
+    text-decoration: underline solid 3px red;
+    }
+    .two_fou{
+        display: flex;
+        flex-direction: row;
+    }
+    .two_fiv p{
+        color: black;
+        font-size: medium;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS';
+        padding-left: 13px;
+    
+    }
+    .two_fiv h5{
+    color: grey;
+    font-size: small;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    padding-left: 15px;
+    }
+    .two_fiv{
+        padding-top: 10px;
+        padding-left: 15px;
+        border-radius: 25px;
+    }
+    .two_fiv img{
+        border-radius: 25px;
+        transition: opacity 0.3s, border 0.3s, box-shadow 0.3s;
+    }
+    .two_fiv img:hover{ 
+        opacity: 1; 
+        filter: brightness(1.2);
+        box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px inset, rgba(0, 0, 0, 0.3) 0px 18px 36px -18px inset;
+    
+    }
+.two_sixti {
+padding-left: 40px;
+background-color: black;
+
+}
+.two_sixti img{
+    background-color: black;
+    justify-items: center;
+    align-items: center;
+}
+.button{
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    background-color: black;
+    justify-content: center;
+    
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    transition: box-shadow 0.3s;
+   
+    border-radius: 12px;
+    background-color: red; 
+}
+.button:hover{
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
 }
