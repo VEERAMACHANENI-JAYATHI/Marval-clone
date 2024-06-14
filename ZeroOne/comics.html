@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Marvel Unlimited</title>
+    <style>
+        body {
+            font-family: sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: rgb(40, 36, 36);
+            color: rgb(245, 243, 243);
+        }
+        .container {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            padding: 20px;
+        }
+        .logo {
+            margin-bottom: 20px;
+        }
+        .logo img {
+            width: 150px;
+        }
+        .hero {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            width: 100%;
+            max-width: 1200px;
+            margin-bottom: 40px;
+        }
+        .hero-text {
+            flex-grow: 1;
+            margin-right: 40px;
+        }
+        .hero-text h1 {
+            font-size: 48px;
+            margin-bottom: 10px;
+        }
+        .hero-text p {
+            font-size: 18px;
+        }
+        .hero-image {
+            width: 400px;
+        }
+        .hero-image img {
+            width: 100%;
+            height: auto;
+        }
+        .button {
+            background-color: #f00;
+            color: #fff;
+            padding: 15px 30px;
+            border: none;
+            border-radius: 5px;
+            font-size: 18px;
+            cursor: pointer;
+            transition: background-color 0.3s ease;
+        }
+        .button:hover {
+            background-color: #c00;
+        }
+        .comics {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-between;
+            width: 100%;
+            max-width: 1200px;
+        }
+        .comic {
+            width: calc(25% - 20px);
+            margin-bottom: 20px;
+        }
+        .comic img {
+            width: 100%;
+            height: auto;
+        }
+        .comic-title {
+            font-size: 16px;
+            margin-top: 10px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="logo">
+            <img src="OIP.jpeg" alt="Marvel Unlimited Logo">
+        </div>
+        <div class="hero">
+            <div class="hero-text">
+                <h1>New on Marvel Unlimited</h1>
+                <p>Read these plus 30,000+ digital comics for $9.99 a month!</p>
+                <button class="button">Get Marvel Unlimited</button>
+            </div>
+            <div class="hero-image">
+                <img src="OIP (1).jpeg" alt="Marvel Unlimited Comics">
+            </div>
+        </div>
+        <div class="comics">
+            <div class="comic">
+                <img src="STL293674-600x932.jpg" alt="Rise of the Powers of X Comic">
+                <p class="comic-title">Rise of the Powers of X (2024) #3</p>
+            </div>
+            <div class="comic">
+                <img src="7351525.jpg" alt="Resurrection of Magneto Comic">
+                <p class="comic-title">Resurrection of Magneto (2024) #3</p>
+            </div>
+            <div class="comic">
+                <img src="clean.jpg" alt="X-Men: Forever Comic">
+                <p class="comic-title">X-Men: Forever (2024) #1</p>
+            </div>
+            <div class="comic">
+                <img src="X-MenPrime1-1.jpg" alt="X-Men Comic">
+                <p class="comic-title">X-Men (2021) #33</p>
+            </div>
+            <div class="comic">
+                <img src="clean (1).jpg" alt="X-Force Comic">
+                <p class="comic-title">X-Force (2019) #50</p>
+            </div>
+            <div class="comic">
+                <img src="clean (2).jpg" alt="Cable Comic">
+                <p class="comic-title">Cable (2024) #3</p>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
